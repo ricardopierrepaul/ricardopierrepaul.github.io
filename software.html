@@ -28,10 +28,9 @@
 <section>
   <h2>Software Design & Engineering</h2>
   <p>
-    This page presents my <strong>Software Design & Engineering</strong> enhancement using the
+    This page presents my Software Design & Engineering enhancement using the
     <strong>Android Event-Tracking Application (CS-360)</strong>. The focus of this enhancement
-    was improving architectural structure, validation logic, usability, and maintainability while
-    preserving core functionality.
+    was improving architecture, validation, usability, and maintainability while preserving core functionality.
   </p>
 </section>
 
@@ -39,9 +38,9 @@
   <h2>Artifact Overview</h2>
   <ul>
     <li><strong>Course:</strong> CS-360 Mobile Architecture and Programming</li>
-    <li><strong>Artifact:</strong> Android Event-Tracking Application</li>
-    <li><strong>Technology:</strong> Java, Android SDK, SQLite</li>
-    <li><strong>Focus Area:</strong> Architecture, validation, usability, and maintainability</li>
+    <li><strong>Artifact:</strong> Android Event-Tracking Application (Java + SQLite)</li>
+    <li><strong>Core Features:</strong> Authentication, event CRUD, SQLite persistence, SMS permission handling</li>
+    <li><strong>Focus Area:</strong> Modular design, validation/error handling, and maintainable Android workflows</li>
   </ul>
 </section>
 
@@ -50,40 +49,42 @@
 
   <h3>Original Artifact</h3>
   <p>
-    Local coursework submission from CS-360 (original version focused on core requirements).
+    <a href="https://github.com/ricardopierrepaul/event-tracker-android/tree/main" target="_blank" rel="noopener noreferrer">
+      View Original Android Project (main branch)
+    </a>
   </p>
 
   <h3>Enhanced Artifact</h3>
   <p>
-    Enhanced version includes improved structure, validation, UI state handling, and permission flow
-    (included as part of my CS-499 capstone materials).
+    <a href="https://github.com/ricardopierrepaul/event-tracker-android/tree/enhanced" target="_blank" rel="noopener noreferrer">
+      View Enhanced Android Project (enhanced branch)
+    </a>
   </p>
 
   <p style="color:#6b7280; font-size:0.95em;">
-    Note: This artifact was enhanced through refactoring and usability improvements to align more
-    closely with professional Android development standards.
+    Note: The enhanced branch contains refactoring and quality improvements completed during CS-499.
   </p>
 </section>
 
 <section>
   <h2>Enhancements Implemented</h2>
   <ul>
-    <li><strong>Modular architecture:</strong> Improved separation between Activities and database logic for cleaner design and maintainability.</li>
-    <li><strong>Input validation & error handling:</strong> Validated user input before database operations to prevent invalid data and improve stability.</li>
-    <li><strong>SQLite database workflows:</strong> Strengthened consistent CRUD behavior and structured schema use.</li>
-    <li><strong>UI interaction & state management:</strong> Buttons dynamically enable/disable based on input state to improve usability and reduce runtime errors.</li>
-    <li><strong>Permission handling:</strong> Properly requests and verifies runtime permissions before SMS notifications are attempted.</li>
+    <li><strong>Modular architecture:</strong> Separated responsibilities between UI and data logic for maintainability.</li>
+    <li><strong>Validation & error handling:</strong> Validated user input prior to database operations to prevent invalid data.</li>
+    <li><strong>UI state management:</strong> Improved user flow by enabling/disabling actions based on input state.</li>
+    <li><strong>Permissions workflow:</strong> Strengthened permission checks before SMS-related behavior.</li>
+    <li><strong>Maintainability improvements:</strong> Cleaner structure, clearer naming, and improved readability.</li>
   </ul>
 </section>
 
 <section>
   <h2>Skills Demonstrated</h2>
   <ul>
-    <li>Mobile software design principles and Android application architecture</li>
-    <li>SQLite integration and CRUD workflows</li>
-    <li>Defensive programming through input validation and structured error handling</li>
-    <li>UI state management and event-driven interaction design</li>
-    <li>Secure coding practices through permissions management and controlled data access</li>
+    <li>Android application architecture and modular design</li>
+    <li>SQLite schema usage and consistent CRUD operations</li>
+    <li>Secure input validation and defensive programming</li>
+    <li>Android permissions handling and event-driven logic</li>
+    <li>Testing/debugging through iterative development</li>
   </ul>
 </section>
 
@@ -92,63 +93,34 @@
 
   <h3>Artifact Description</h3>
   <p>
-    The artifact selected for this enhancement is an Android-based Event-Tracking mobile application originally
-    developed during the CS-360 Mobile Architecture and Programming course. The application allows users to create
-    an account, log in securely, and manage personal events through full CRUD (Create, Read, Update, Delete)
-    functionality using a local SQLite database. The app also integrates permission handling for SMS notifications,
-    enabling users to receive reminders for upcoming events.
-  </p>
-  <p>
-    The original version of the application focused primarily on core functionality and meeting assignment
-    requirements. For this milestone, the application was enhanced to improve architectural structure, validation
-    logic, usability, and maintainability while aligning more closely with professional software engineering standards.
-    These enhancements strengthen the application’s reliability, scalability, and overall code quality.
+    The artifact selected for this enhancement is an Android-based Event-Tracking mobile application originally developed
+    during the CS-360 Mobile Architecture and Programming course. The application allows users to create an account, log in,
+    and manage personal events through full CRUD functionality using a local SQLite database. The app also integrates
+    permission handling for SMS notifications to support reminders for upcoming events.
   </p>
 
-  <h3>Justification for Inclusion in ePortfolio</h3>
+  <h3>Justification for Inclusion in the ePortfolio</h3>
   <p>
-    This artifact was selected for inclusion in my ePortfolio because it demonstrates applied software design
-    principles, mobile application architecture, and real-world problem solving. The project integrates multiple
-    components of modern application development, including user authentication, persistent storage, user interface
-    design, permissions management, and event-driven programming.
-  </p>
-  <p>
-    Several components of the artifact showcase my software engineering skills:
-  </p>
-  <ul>
-    <li><strong>Modular Architecture:</strong> Activities and database logic are separated to improve maintainability and readability.</li>
-    <li><strong>Input Validation and Error Handling:</strong> User input is validated before database operations occur, preventing invalid data storage.</li>
-    <li><strong>Database Design:</strong> SQLite tables are structured using meaningful schema design and consistent CRUD operations.</li>
-    <li><strong>UI Interaction and State Management:</strong> Buttons dynamically enable or disable based on input state to improve usability.</li>
-    <li><strong>Permission Handling:</strong> Runtime permissions are requested and verified before SMS functionality is used.</li>
-  </ul>
-  <p>
-    The enhancements improved the original artifact by strengthening code organization, improving user experience,
-    and aligning the application with industry best practices in Android development and secure coding.
+    This artifact was selected because it demonstrates applied software design principles, mobile application architecture,
+    and real-world problem solving. It integrates user authentication, persistent storage, UI design, permissions management,
+    and event-driven programming. The enhancement improved code organization, usability, and maintainability while aligning
+    more closely with professional engineering standards.
   </p>
 
   <h3>Course Outcome Alignment</h3>
-  <ul>
-    <li><strong>Design and evaluate computing solutions:</strong> Solves a real-world scheduling and notification problem using structured programming and persistent storage.</li>
-    <li><strong>Use innovative techniques and tools:</strong> Applied Android Studio, Java, SQLite, and Android SDK components.</li>
-    <li><strong>Professional communication:</strong> Improved readability through structure, naming, and documentation practices.</li>
-    <li><strong>Security mindset:</strong> Permission handling, validation logic, and controlled data access reduce misuse and runtime vulnerabilities.</li>
-  </ul>
+  <p>
+    These enhancements support program outcomes by demonstrating: designing and evaluating computing solutions,
+    applying modern tools and techniques (Android Studio, Java, SQLite), professional communication through clearer structure
+    and documentation, and a security mindset through validation and controlled permission handling.
+  </p>
 
   <h3>Reflection on the Enhancement Process</h3>
   <p>
-    Enhancing this artifact reinforced the importance of maintainable architecture and defensive programming practices.
-    While the original implementation functioned correctly, refactoring highlighted how small design improvements
-    significantly increase long-term usability and reliability.
-  </p>
-  <p>
-    One of the primary challenges was ensuring consistent data flow between UI components and the database while
-    avoiding duplication and unintended side effects. Debugging permission handling and UI state changes required
-    careful testing and validation across different user flows.
-  </p>
-  <p>
-    Through this process, I strengthened my understanding of modular software design, input validation strategies,
-    database-driven workflows, Android lifecycle behavior, defensive coding techniques, and iterative testing.
+    Enhancing this artifact reinforced the importance of maintainable architecture and defensive programming.
+    Refactoring highlighted how design improvements can increase reliability and long-term usability. A key challenge was
+    ensuring consistent data flow between UI components and the database while avoiding duplication and unintended side effects.
+    This process strengthened my understanding of modular design, validation strategies, database-driven workflows,
+    Android lifecycle behavior, and iterative testing.
   </p>
 </section>
 
@@ -158,3 +130,4 @@
 
 </body>
 </html>
+
